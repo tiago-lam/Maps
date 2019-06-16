@@ -47,5 +47,5 @@ map.add_child(folium.LayerControl(collapsed=False))
 FloatImage(image_file, bottom=3, left=3).add_to(map)
 
 #saves/generates map to the html specified in the parameter
-map.save("view/map.html")
+map.save("index.html")
 
